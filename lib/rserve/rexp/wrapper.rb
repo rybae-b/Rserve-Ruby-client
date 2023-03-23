@@ -23,8 +23,6 @@ module Rserve
             REXP::String.new(o)
           when Integer
             REXP::Integer.new(o)
-          when Fixnum
-            REXP::Integer.new(o)
           when Float
             REXP::Double.new(o)
           when Array
